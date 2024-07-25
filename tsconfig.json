@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "outDir": "./dist",
+        "rootDir": "./src", 
+        "lib": ["ESNext"], /*version*/
+        "target": "ESNext",
+        "moduleResolution": "NodeNext",
+        "module": "NodeNext",
+        "strict": false,
+        "sourceMap": true, /*nos genera los mapas*/
+        "esModuleInterop": true,
+        "declaration": true,
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true
+    },
+
+    // Que archivos quieres incluir en la compilacion
+    "include": ["src/**/*.ts"]
+}
